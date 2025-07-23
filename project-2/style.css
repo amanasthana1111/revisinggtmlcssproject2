@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-family: "Ubuntu", sans-serif;
+    background-color: rgb(227, 227, 227);
+  }
+  
+  .main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 3vw 4vw;
+    padding-top: 6vw;
+    gap: 4.6vw;
+  }
+  
+  .section-1 {
+    height: 100%;
+    width: 48%;
+  }
+  
+  .bottom {
+    width: 100%;
+    height: 70%;
+    padding: 5.6vw 2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+  }
+  
+  .b1 {
+    margin-top: 2vw;
+    padding: 0.3vw 0.4vw;
+    width: fit-content;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid;
+    gap: 10px;
+  }
+  .h56{
+    padding: 10px;
+  }
+  
+  .b2 {
+    width: 100%;
+  }
+  
+  .section-2 {
+    height: 100%;
+    width: 30%;
+    position: relative;
+    /* background-color: blueviolet; */
+  }
+  
+  .he {
+    font-size: 5rem;
+    font-weight: 350;
+    line-height: 5rem;
+  }
+  
+  .color-circles {
+    display: flex;
+
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(160, 15, 15); /* Default color */
+}
+.c1{
+    background-color: black;
+}
+
+.text{
+    width: 100%;
+    height: 3vw;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right2{
+    display: flex;
+    gap: 1vw;
+}
+.right1 h3 , .right2 h4{
+    font-weight: 400;
+}
+
+.right2 i {
+    color: gold;
+}
+.imgwala{
+    width: 100%;
+    height: 100%;
+
+}
+.imgwala img{
+    width: 100%;
+    height: 99%;
+    object-fit: cover;
+    
+}
+.circle3{
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 1vw;
+    padding: 1.3vw;
+    top: 21%;
+    left:85%;
+}
+
+.font{
+    font-weight: 400;
+    position: absolute;
+    rotate: -90deg;
+    bottom: 4.7vw;
+    left: -9vw;
+    font-size: 2vw;
+}
+
